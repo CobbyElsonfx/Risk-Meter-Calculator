@@ -9,6 +9,10 @@
 
 This project is a Risck Meter that allows users to check/uncheck multiple checkboxes and displays the result on a linear meter. It was developed as an exercise for an assignment by Girl Talk Power Company.
 
+
+## Live Link
+https://risk-meter-calculator.onrender.com
+
 ## Description
 
 The Risk Meter  is a React-based user interface component that renders a list of checkboxes based on the provided data. Users can check/uncheck the checkboxes, and the app displays the count of checked checkboxes on a linear meter. The meter indicates the progress based on the number of checkboxes checked. The component also allows users to enter additional information for each checkbox.
