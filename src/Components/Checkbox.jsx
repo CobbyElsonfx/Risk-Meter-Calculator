@@ -9,8 +9,7 @@ import {
     Typography,
     Checkbox
   } from "@material-tailwind/react";
-  import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
-import {eachCheckboxContents} from "../contants/index"
+import {eachCheckboxContents} from "../Constants/index"
 
 function CheckboxComponent() {
     const [checkedCount,setCheckedcount] = useState(0)
@@ -46,7 +45,7 @@ function CheckboxComponent() {
                                         >
                             <CardBody>
                                 <img className="absolute top-2 right-2" src={vector} alt="" />
-                            <Checkbox   className=" m-0 checked:green border-green  hover:bg-green  sm:p-3 "   
+                            <Checkbox   className=" m-0 checked:green   sm:p-3 "   
                                         color="green" 
                                         ripple={true} 
                                         onChange={handleCheckboxChange} 
